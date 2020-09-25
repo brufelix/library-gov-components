@@ -1,0 +1,50 @@
+.about-links {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.brasao {
+    display: none;
+}
+
+.bars {
+    display: none;
+}
+
+@media(max-width: 876px) {
+    .about-links {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+
+    .brasao {
+        display: block;
+        margin-left: 90px;
+    }
+}
+
+@media(max-width: 425px) {
+    .brasao {
+        display: none;
+    }
+}
+
+@media(max-width: 321px) {
+    .brasao>.img {
+        display: none;
+    }
+}

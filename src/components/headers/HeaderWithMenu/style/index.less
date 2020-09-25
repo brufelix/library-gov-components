@@ -1,0 +1,23 @@
+.bars-menu {
+    display: 'flex';
+}
+
+.ant-layout-header>div.link-icons {
+    display: none;
+}
+
+@media(max-width: 536px) {
+    .ant-layout-header>div.bars-menu>span {
+        display: none;
+    }
+}
+
+@media(max-width: 425px) {
+    .ant-layout-header>div.link-icons {
+        display: flex;
+    }
+
+    .ant-layout-header>div.link-options {
+        display: none;
+    }
+}
